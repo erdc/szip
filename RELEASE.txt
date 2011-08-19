@@ -1,0 +1,24 @@
+
+                      Relase notes for SZIP 2.1
+                          November 10, 2008
+
+
+Bug fixes:
+
+   -- Modified a test in a configure script forcing to perform 
+      a real calculation to determine if math library is needed.
+
+New features:
+
+   -- None.
+
+Know problems:
+
+   -- On IRIX64-6.5, shared library version 3.0 is created instead of 2.0.
+   -- There is no support for shared library on the AIX 5.* systems.
+
+User support:
+    Report all problems to help@hdfgroup.org.
+    For more information on SZIP, see:
+        http://www.hdfgroup.org/doc_resource/SZIP/
+
